@@ -12,6 +12,8 @@ function TipoAuto(marca, modelo, precio=0, km=0, color="", cuotas=0, anio=0, pat
     this.patente=patente;
     this.vendido=vendido;
 
+    //rrrr
+
 
 };
 
