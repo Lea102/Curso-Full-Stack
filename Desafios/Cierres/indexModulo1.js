@@ -102,12 +102,12 @@ const concesionaria = {
 
 //console.log(concesionaria);
 ;
-//console.log(concesionaria.buscarAuto('APL123'));
+console.log(concesionaria.buscarAuto('APL1231'));
 console.log(concesionaria.venderAuto('APL123'));
 
 //console.log(concesionaria.totalDeVentas());
-console.log(concesionaria.autosQuePuedeComprar({
-    nombre: "juan",
-    capacidadDePagoEnCuotas: 200000,
-    capacidadDePagoTotal: 1000000
-    }));
+//console.log(concesionaria.autosQuePuedeComprar({
+ //   nombre: "juan",
+ ////   capacidadDePagoEnCuotas: 200000,
+  //  capacidadDePagoTotal: 1000000
+ //   }));
