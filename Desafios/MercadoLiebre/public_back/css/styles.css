@@ -1,0 +1,111 @@
+body {
+
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #EAC926;
+    width:80%;
+    
+    }
+
+    .formatoMenu{
+        list-style: none;
+        
+        text-decoration: none;
+        margin-left: 0px
+
+    }
+
+    .formatoMenu a{
+        text-decoration: none;
+        margin-left: 0px;
+        color: black;
+        margin-block-start:0em;
+    }
+
+
+h2 {
+background: yellowgreen;
+margin-left: 5%;
+margin-block-start:0em;
+}
+
+
+.texto {
+    font-size: 12px;
+
+}
+
+.titular {
+    font-size: 24px;
+    margin-left: 0%;
+    background-color: #ebebeb;
+
+}
+
+.precios {
+    font-size: 24px;
+
+}
+
+.descuentos {
+    font-size: 16px;
+    color:green;
+
+}
+
+.descripciones{
+    font-size: 16px;
+
+}
+
+.boton {
+
+margin-left: 50%;
+margin-right: 50%;
+background-color: #03264C; 
+color: white;
+border-radius: 0.5em;
+padding: 5px 10px;
+}
+
+.footerub {
+  
+    width:50%;
+    text-align:center;
+    margin: auto;
+    
+     
+}
+
+main {
+
+    width:70%;
+    margin: auto;
+
+}
+
+.container_detalle{
+
+   border-top: solid 5px #ebebeb; 
+   padding:15px;
+}
+
+.container_article{
+    width:70%;
+    margin:15px;
+    border: solid 10px #ebebeb; 
+    padding:15px;
+ }
+
+ .camioncito {
+    color:green ;
+    padding-top:3px;
+    padding-bottom:20px;
+    padding-left:3px;
+    padding-right:20px;
+    border: solid 5px green;
+    border-radius:70px ;
+
+ }
