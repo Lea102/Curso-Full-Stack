@@ -9,12 +9,10 @@ body{
     background-color: #ebebeb;
 }
 
-h3{
-    font-size: 24px;
-}
+
 
 p{
-    font-size: 12px;
+    font-size: 16px;
 }
 div.top-header{
     padding: 5%;
@@ -32,7 +30,7 @@ header div.logo{
     padding: 10px;
 }
 header nav{
-    font-size: 12px;
+    font-size: 16px;
     
     justify-content: space-around;
     
@@ -56,6 +54,8 @@ header .form .input{
     outline: none;
     color: #666;
     padding: 2px;
+    width:100%;
+    min-width: 200px;
 }
 header .form .submit{
     background-color: #FFF;
@@ -72,6 +72,8 @@ header div.top-header p{
 
 div.burger-menu{
     text-align: center;
+    display: block;
+    margin: auto;
 }
 
 div.burger-menu i{
@@ -90,12 +92,11 @@ article div.main-article{
     
 }
 
-.price{
-    font-size: 18px;
-}
+
 
 .discount,
-.description{
+.description,
+.price{
     font-size: 16px;
     font-weight: normal;
 }
@@ -103,11 +104,14 @@ article div.main-article{
 h3
 {
     color: #666;
-}
+        font-size: 24px;
+    }
+
 
 
 .description{
     color: lightgray;
+
 }
 
 .description:hover {
@@ -119,13 +123,11 @@ section.banner img{
 }
 
 main{
-    width: 90%;
+    width: 100%;
     
 }
 
-main section article{
-    background-color: #fff;
-}
+
 
 main section article img{
     width: 100%;
@@ -153,19 +155,22 @@ transition-duration: 1s;
 color: darkolivegreen;
 transform :rotate(90deg);
 }
-.products{
 
-    display:flex;
-    
-   
+.products {
 
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
 }
 
 .product_img{
 
-    width:50%;
-    border:2px solid rgb(218, 203, 203);
+    width:80%;
+   
+   
+    border:3px solid rgb(218, 203, 203);
+ 
 
     
 }
@@ -176,12 +181,17 @@ transform :rotate(90deg);
       -webkit-box-shadow: 10px 10px 5px #ccc;
       -khtml-box-shadow: 10px 10px 5px #ccc;
     
-    width:60%;
+    width:90%;
 
     
 }
 
 .header-botton-bar{
+display: none;
+
+}
+
+.titular-footerub,.descripciones-footerub{
 
     display: flex;
     justify-content: space-evenly;
@@ -189,7 +199,7 @@ transform :rotate(90deg);
 
 
 
-.header-botton-bar ul{
+.header-botton-bar ul ,.titular-footerub,.descripciones-footerub{
 
     
     padding:30px;
@@ -235,3 +245,74 @@ transform :rotate(90deg);
     flex-wrap:wrap;
 
 }
+
+@media (min-width:768px) {
+    
+    *{
+        font-size: 24px;
+    }
+    .discount,
+.description,
+.price{
+    font-size: 24px;
+    font-weight: normal;
+}
+    
+    p{
+        font-size: 24px;
+    }
+
+    h3
+    {
+        
+            font-size: 24px;
+        }
+    
+        .header-botton-bar{
+            display: flex;
+            
+            }
+            div.burger-menu{
+                text-align: center;
+                display: none;
+            }
+
+    }
+
+    
+
+    @media (min-width:1260px) {
+    
+        *{
+            font-size: 48px;
+        }
+        .discount,
+    .description,
+    .price{
+        font-size: 48px;
+        font-weight: normal;
+    }
+        
+        p{
+            font-size: 48px;
+        }
+    
+        h3
+        {
+            
+                font-size: 48px;
+            }
+            .foot-copy
+
+            {
+            
+                padding: 48px;
+            }
+        footer .fa-solid{
+            
+            margin-left: 50%;
+        }
+          
+    
+    
+        }
