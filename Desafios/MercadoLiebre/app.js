@@ -3,7 +3,7 @@ const app = express();
 app.use(express.static('public'));
 
 
-app.listen(3040, ()=>{
+app.listen(process.env.PORT ||3040, ()=>{
     console.log('Servidor funcionando');
 });
 
